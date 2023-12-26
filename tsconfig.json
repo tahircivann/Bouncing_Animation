@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"moduleResolution": "node",
+		"paths": {
+			"@babylonjs/*": ["node_modules/@babylonjs/*"]
+		  },
+		"outDir": "commonjs",
+		"target": "esNext",
+		"baseUrl": "./",
+		"lib": ["esNext", "dom"],
+		"esModuleInterop": true,
+		"types": ["babylonjs"],
+		"forceConsistentCasingInFileNames": true,
+		"noImplicitReturns": true,
+		"strict": true,
+	},
+	"include": ["index.ts"],
+	"exclude": ["node_modules"]
+}
